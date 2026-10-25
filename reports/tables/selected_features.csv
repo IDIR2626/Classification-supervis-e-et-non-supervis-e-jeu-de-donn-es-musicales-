@@ -1,0 +1,4 @@
+fold,features
+1,"loudness, valence, acousticness, energy, instrumentalness, speechiness"
+2,"loudness, speechiness, liveness, danceability, duration_ms, valence"
+3,"speechiness, acousticness, liveness, loudness, instrumentalness, energy"

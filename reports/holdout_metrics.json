@@ -1,0 +1,38 @@
+{
+  "selected_family": "knn",
+  "selected_parameter": 2,
+  "selection_metric": "mean CV accuracy among decision_tree and knn candidates",
+  "selected_features": [
+    "loudness",
+    "speechiness",
+    "acousticness",
+    "valence",
+    "instrumentalness",
+    "duration_ms"
+  ],
+  "test_rows": 1222,
+  "test_class_counts": {
+    "0": 773,
+    "1": 251,
+    "2": 72,
+    "3": 28,
+    "4": 17,
+    "5": 9,
+    "6": 5,
+    "7": 29,
+    "8": 37,
+    "9": 1
+  },
+  "candidate": {
+    "accuracy": 0.5114566284779051,
+    "error": 0.4885433715220949,
+    "balanced_accuracy": 0.11919006134427759,
+    "macro_f1": 0.1198073672344937
+  },
+  "majority_baseline": {
+    "accuracy": 0.632569558101473,
+    "error": 0.367430441898527,
+    "balanced_accuracy": 0.1,
+    "macro_f1": 0.0774937343358396
+  }
+}

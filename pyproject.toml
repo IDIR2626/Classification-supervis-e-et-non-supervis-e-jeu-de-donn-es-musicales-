@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spotify-popularity-analysis"
+version = "0.1.0"
+description = "Reproducible analysis of low-popularity songs: classification, class imbalance and clustering."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Mohand Ouidir HOCINE"}]
+license = {text = "MIT"}
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<3", "scikit-learn>=1.5,<2", "matplotlib>=3.8,<4"]
+
+[project.scripts]
+spotify-analysis = "spotify_analysis.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
